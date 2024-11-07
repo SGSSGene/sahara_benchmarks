@@ -28,5 +28,14 @@ for l in 50 150; do
             --fasta_line_length 0 \
             -e $e \
             -o data/simulated/reads_l${l}_k${e}_n100k.fa
+
+        sahara read_simulator \
+            -i data/reference.fa \
+            -n 1k \
+            -l $l \
+            --fasta_line_length 0 \
+            -e $e \
+            -o data/simulated/reads_l${l}_k${e}_n1k.fa
+
     done
 done
