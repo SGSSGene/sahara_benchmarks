@@ -1,3 +1,9 @@
+# About
+ This repository helps reproducing search scheme benchmarking results.
+
+It helps downloading/compiling the required tools. Generating data, preparing search schemes and preparing and building the FM-Index for/with Columba.
+It also runs all the available search schemes with columba and provides a final script that shows the run time results.
+
 # Reproducing Results:
 
 1. Download and compile tools:
