@@ -2,7 +2,7 @@
 
 set -Eeuo pipefail
 
-size=${1:-3gb}
+size=${1:-3g}
 
 mkdir -p data
 
